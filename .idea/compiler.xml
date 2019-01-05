@@ -10,7 +10,7 @@
         <module name="oss-dao" />
         <module name="oss-domain" />
         <module name="oss-service" />
-        <module name="oss-wab" />
+        <module name="oss-web" />
       </profile>
     </annotationProcessing>
   </component>
