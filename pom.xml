@@ -7,15 +7,9 @@
     <groupId>com.oss</groupId>
     <artifactId>oss</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>oss-common</module>
-        <module>oss-domain</module>
-        <module>oss-web</module>
-        <module>oss-service</module>
-        <module>oss-dao</module>
-    </modules>
+    <version>0.0.1-SNAPSHOT</version>
 
+    <!-- 集中定义依赖版本号 -->
     <properties>
         <junit.version>4.12</junit.version>
         <spring.version>4.2.4.RELEASE</spring.version>
@@ -36,6 +30,33 @@
         <solrj.version>4.10.3</solrj.version>
         <ik.version>2012_u6</ik.version>
     </properties>
+
+    <modules>
+        <module>oss-common</module>
+        <module>oss-pojo</module>
+        <module>oss-cart-web</module>
+        <module>oss-cart-service</module>
+        <module>oss-dao</module>
+        <module>oss-cart-interface</module>
+        <module>oss-content-interface</module>
+        <module>oss-content-service</module>
+        <module>oss-item-web</module>
+        <module>oss-manager-web</module>
+        <module>oss-order-interface</module>
+        <module>oss-order-service</module>
+        <module>oss-order-web</module>
+        <module>oss-passport-interface</module>
+        <module>oss-passport-service</module>
+        <module>oss-passport-web</module>
+        <module>oss-portal-web</module>
+        <module>oss-search-interface</module>
+        <module>oss-search-service</module>
+        <module>oss-search-web</module>
+        <module>oss-sellergoods-interface</module>
+        <module>oss-sellergoods-service</module>
+        <module>oss-shop-web</module>
+    </modules>
+
 
     <dependencyManagement>
         <dependencies>
@@ -261,7 +282,6 @@
         </dependencies>
 
     </dependencyManagement>
-
 
 
     <build>

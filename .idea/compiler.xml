@@ -6,12 +6,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="oss-cart-interface" />
+        <module name="oss-cart-web" />
         <module name="oss-common" />
+        <module name="oss-content-interface" />
+        <module name="oss-content-service" />
         <module name="oss-dao" />
-        <module name="oss-domain" />
+        <module name="oss-item-web" />
+        <module name="oss-manager-web" />
+        <module name="oss-order-interface" />
+        <module name="oss-order-service" />
+        <module name="oss-order-web" />
+        <module name="oss-passport-interface" />
+        <module name="oss-passport-service" />
+        <module name="oss-passport-web" />
+        <module name="oss-pojo" />
+        <module name="oss-portal-web" />
+        <module name="oss-search-interface" />
+        <module name="oss-search-service" />
+        <module name="oss-search-web" />
+        <module name="oss-sellergoods-interface" />
+        <module name="oss-sellergoods-service" />
         <module name="oss-service" />
-        <module name="oss-web" />
+        <module name="oss-shop-web" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="oss-cart-service" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
